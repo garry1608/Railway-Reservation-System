@@ -36,3 +36,19 @@ The application provides an intuitive GUI for users to search trains, book ticke
 ---
 
 ## 🗂️ Project Structure
+📁 src
+┣ 📄 RailwayApp.java → Application entry point
+┣ 📄 LoginPage.java → User authentication
+┣ 📄 RegisterPage.java → New user registration
+┣ 📄 MainDashboard.java → User dashboard
+┣ 📄 AdminDashboard.java → Admin controls
+┣ 📄 SearchTrainPage.java → Train search
+┣ 📄 BookTrainPage.java → Booking workflow
+┣ 📄 SeatSelectionDialog.java → Seat selection UI
+┣ 📄 BookingHistoryPage.java → User booking history
+┣ 📄 CancelBookingPage.java → Cancel tickets
+┣ 📄 TrackTrainPage.java → Train tracking
+┣ 📄 TrainSchedulePage.java → Train schedules
+┣ 📄 ViewBookingsPage.java → Admin booking view
+┣ 📄 DatabaseConnection.java → DB connectivity
+┗ 📄 UIUtils.java → UI helper utilities
